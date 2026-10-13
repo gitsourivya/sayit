@@ -2,8 +2,7 @@ import { GoogleGenAI } from "@google/genai";
 import { NextResponse } from "next/server";
 
 export const runtime = "nodejs";
-
-const model = process.env.GEMINI_MODEL || "gemini-2.5-flash";
+const model = process.env.GEMINI_MODEL || "gemini-3.8-flash";
 
 const allowedTones = ["gentle", "confident", "direct"];
 
